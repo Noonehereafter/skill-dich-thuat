@@ -1,7 +1,7 @@
 # ANTIGRAVITY TRANSLATION SKILL
 
 ## Purpose
-Tạo bản dịch/chỉnh sửa tiếng Việt chuẩn xuất bản từ file HTML/MD và file song ngữ.
+Tạo bản dịch tiếng Việt chuẩn xuất bản trực tiếp từ file gốc HTML/MD với chất lượng của một dịch giả chuyên nghiệp 20 năm kinh nghiệm.
 Mặc định đầu ra là bản cuối dùng ngay, không phải bản nháp.
 
 ## Source of Truth
@@ -10,8 +10,7 @@ Mặc định đầu ra là bản cuối dùng ngay, không phải bản nháp.
 3. knowledge/honorifics.yaml
 4. knowledge/terminology.yaml
 5. knowledge/voice_profiles.yaml
-6. bilingual/tm_examples.jsonl
-7. qa/qa_rules.yaml
+6. qa/qa_rules.yaml
 
 ## Non-negotiables
 - Chỉ dịch text node.
@@ -30,8 +29,8 @@ Mặc định đầu ra là bản cuối dùng ngay, không phải bản nháp.
 1. Đọc chapter_roadmap.yaml và project_status.yaml.
 2. Xác định chương hiện tại và continuity state.
 3. Nạp knowledge base đã khóa.
-4. Nếu có file song ngữ mới, cập nhật TM và đề xuất vá glossary.
-5. Dịch/chỉnh sửa theo text node.
+4. Áp dụng văn phong linh hoạt, chuyên nghiệp, dịch thẳng từ source.
+5. Dịch theo text node.
 6. Chạy QA gate.
 7. Chỉ xuất nếu release_gate = pass.
 
@@ -48,8 +47,6 @@ Một bản chỉ được phát hành khi:
 ## Auto-Generation Rules
 - Nếu thiếu `chapter_roadmap.yaml`, AI phải quét tên file chương và tự dựng roadmap theo thứ tự logic.
 - Nếu thiếu `project_status.yaml`, AI phải tạo từ trạng thái hiện có như done, scan_done, in_progress, untouched, broken_continue.
-- Nếu thiếu `entities.yaml`, `titles.yaml`, `locations.yaml`, `terminology.yaml`, AI phải sinh lần đầu từ Master audit rồi hợp nhất với song ngữ đã duyệt.
-- Nếu phát hiện cặp song ngữ mới lặp lại cùng cách dùng từ tốt hơn, AI chỉ được ghi vào `tm_examples.jsonl` và revision_logs, không được tự ý đảo chuẩn gốc nếu chưa qua conflict_review.
+- Nếu thiếu `entities.yaml`, `titles.yaml`, `locations.yaml`, `terminology.yaml`, AI phải sinh lần đầu từ Master audit.
 - Nếu gặp cách dịch mới mâu thuẫn với khóa cũ, AI phải mở mục pending_conflicts thay vì âm thầm sửa chuẩn dự án. Cấm "dịch tạm rồi sửa sau".
 - Nếu output đang nối dở, AI phải tạo `continuation_log.yaml` với file, last_exact_tail, status, resume_mode. Dừng đúng điểm đứt và nối nguyên mạch.
-- Chế độ `revise_only`: AI không dịch mới mà chỉ đọc song ngữ hiện có để "gọt dũa" từ dùng, thống nhất xưng hô, loại mùi bám chữ và siết giọng nhân vật theo hồ sơ đã khóa.
