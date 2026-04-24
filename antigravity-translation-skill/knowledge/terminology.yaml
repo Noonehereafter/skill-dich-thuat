@@ -1,0 +1,7 @@
+# knowledge/terminology.yaml
+# Thuật ngữ chuyên ngành (pháp lý, điều tra, giang hồ).
+terminology:
+  - original: "Undercover"
+    translated: "Nằm vùng"
+    category: "Police/Underworld"
+    forbidden_translations: ["Dưới vỏ bọc", "Bí mật"]

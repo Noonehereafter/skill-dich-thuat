@@ -1,0 +1,6 @@
+# project/project_status.yaml
+# Trạng thái tổng quát của dự án.
+project_name: "Antigravity Project"
+current_phase: "translation" # [scan_done, translation, revise_only, done]
+current_chapter_id: "chapter_1"
+completion_percentage: 0

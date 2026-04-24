@@ -1,0 +1,7 @@
+# project/file_manifest.yaml
+# Danh sách tất cả các file nguồn và trạng thái xử lý
+files:
+  - path: "source/ch1.md"
+    type: "markdown"
+    translated_path: "output/release_ready/ch1_vi.md"
+    status: "untouched"

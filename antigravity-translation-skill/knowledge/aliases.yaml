@@ -1,0 +1,7 @@
+# knowledge/aliases.yaml
+# Biệt danh của các nhân vật.
+aliases:
+  - entity_id: "John Doe"
+    alias_en: "The Ghost"
+    alias_vi: "Bóng Ma"
+    context: "Giang hồ gọi"

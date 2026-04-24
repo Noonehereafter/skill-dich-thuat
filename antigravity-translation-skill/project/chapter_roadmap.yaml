@@ -1,0 +1,9 @@
+# project/chapter_roadmap.yaml
+# Thứ tự file/chương cần xử lý theo trình tự logic.
+chapters:
+  - id: "chapter_1"
+    file: "ch1.md"
+    status: "untouched" # [untouched, in_progress, broken_continue, done]
+  - id: "chapter_2"
+    file: "ch2.md"
+    status: "untouched"

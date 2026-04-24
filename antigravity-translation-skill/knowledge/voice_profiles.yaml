@@ -1,0 +1,7 @@
+# knowledge/voice_profiles.yaml
+# Hồ sơ giọng điệu nhân vật.
+profiles:
+  - character: "John Doe"
+    personality: "Lạnh lùng, quyết đoán, thỉnh thoảng mỉa mai."
+    speech_rhythm: "Câu ngắn, dứt khoát."
+    localization_strategy: "Dùng từ ngữ mạnh, tránh nói vòng vo. Khi mỉa mai dùng ngữ khí giễu cợt ngầm."

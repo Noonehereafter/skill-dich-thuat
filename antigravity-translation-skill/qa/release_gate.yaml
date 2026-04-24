@@ -1,0 +1,10 @@
+# qa/release_gate.yaml
+# Cổng phát hành. Bản dịch chỉ được xuất ra nếu mọi điều kiện là true.
+gate:
+  structure_ok: false
+  entity_ok: false
+  honorific_ok: false
+  terminology_ok: false
+  style_ok: false
+  fidelity_ok: false
+  completion_ok: false

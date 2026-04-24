@@ -1,0 +1,7 @@
+# knowledge/case_events.yaml
+# Các mốc sự kiện chính trong truyện để đảm bảo tính nhất quán của dòng thời gian.
+events:
+  - id: "event_01"
+    name: "The First Murder"
+    description: "Vụ án mạng đầu tiên tại hẻm."
+    timeline: "Ngày 1"

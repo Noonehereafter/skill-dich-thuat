@@ -1,0 +1,12 @@
+# qa/scoring_rubric.yaml
+# Tiêu chí chấm điểm chất lượng (nếu cần chấm điểm tự động).
+rubric:
+  fidelity:
+    weight: 40
+    criteria: "Không dịch sai, không sót, không bịa."
+  fluency:
+    weight: 30
+    criteria: "Đọc tự nhiên, không vấp, ngữ pháp chuẩn Việt."
+  consistency:
+    weight: 30
+    criteria: "Giữ đúng xưng hô, tên riêng, thuật ngữ từ đầu đến cuối."

@@ -1,0 +1,13 @@
+# knowledge/honorifics.yaml
+# Cặp xưng hô bất biến dựa trên quan hệ và ngữ cảnh.
+honorific_pairs:
+  - speaker: "John Doe"
+    listener: "Rookie Cop"
+    relationship_power: "Superior-Subordinate"
+    pronoun_speaker: "tôi"
+    pronoun_listener: "cậu"
+    context: "Nghiêm túc, công việc"
+    variants:
+      - context: "Lúc cợt nhả"
+        pronoun_speaker: "anh"
+        pronoun_listener: "chú"

@@ -1,0 +1,6 @@
+# knowledge/idioms.yaml
+# Thành ngữ, tục ngữ, tiếng lóng.
+idioms:
+  - english: "Piece of cake"
+    vietnamese: "Dễ như ăn kẹo"
+    notes: "Dịch theo hiệu ứng, không dịch từng chữ."

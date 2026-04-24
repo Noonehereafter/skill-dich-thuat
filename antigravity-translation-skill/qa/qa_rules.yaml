@@ -1,0 +1,18 @@
+# qa/qa_rules.yaml
+# Các luật kiểm tra QA tự động
+rules:
+  - id: check_structure
+    description: "Đảm bảo không mất thẻ HTML/Markdown, class, href."
+    critical: true
+  - id: check_entities
+    description: "Kiểm tra xem tên riêng có bị dịch sai hoặc bị đổi không."
+    critical: true
+  - id: check_honorifics
+    description: "Kiểm tra xưng hô so với ma trận trong honorifics.yaml."
+    critical: true
+  - id: check_terminology
+    description: "Kiểm tra các từ cấm dịch thô và việc áp dụng đúng thuật ngữ."
+    critical: true
+  - id: check_fidelity
+    description: "Đảm bảo không thêm bớt nội dung ngoài nguồn."
+    critical: true

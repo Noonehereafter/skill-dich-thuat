@@ -1,0 +1,8 @@
+# knowledge/entities.yaml
+# Bảng danh tính cốt lõi (không được tự ý thay đổi).
+entities:
+  - original_name: "John Doe"
+    vietnamese_translation: "John Doe" # Giữ nguyên tên tiếng Anh theo chuẩn chung hoặc dùng Hán Việt nếu được yêu cầu
+    role: "Detective"
+    standard_title: "Thanh tra"
+    notes: "Dễ nhầm với John Smith. Chỉ gọi là Thanh tra khi làm việc."

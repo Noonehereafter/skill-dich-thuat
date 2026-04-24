@@ -1,0 +1,6 @@
+# knowledge/titles.yaml
+# Chức danh, tước hiệu.
+titles:
+  - original: "Chief Inspector"
+    translated: "Chánh Thanh tra"
+    category: "Police"

@@ -1,0 +1,7 @@
+# qa/forbidden_patterns.yaml
+# Các mẫu câu, từ ngữ cấm sử dụng do mang "mùi dịch".
+forbidden:
+  - pattern: "Anh ấy đã đi đến trường"
+    reason: "Lạm dụng chữ 'đã'. Cần bỏ 'đã' nếu ngữ cảnh đủ rõ."
+  - pattern: "Bởi vì... cho nên"
+    reason: "Dịch bám chữ (Because... so). Rút gọn cho tự nhiên."

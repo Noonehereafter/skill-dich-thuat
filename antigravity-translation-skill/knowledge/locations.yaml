@@ -1,0 +1,6 @@
+# knowledge/locations.yaml
+# Địa danh.
+locations:
+  - original: "Downtown Alley"
+    translated: "Hẻm Dưới Phố"
+    type: "Street"

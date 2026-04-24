@@ -1,0 +1,7 @@
+# project/continuation_log.yaml
+# Ghi nhận trạng thái khi token bị đứt gãy để nối mạch chính xác.
+last_interruption:
+  file: ""
+  last_exact_tail: "" # Chuỗi 20-30 ký tự cuối cùng đã xuất ra thành công
+  status: "idle" # [idle, broken_continue]
+  resume_mode: "exact_append"
